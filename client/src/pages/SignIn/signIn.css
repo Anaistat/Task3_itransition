@@ -1,0 +1,24 @@
+.sign-in-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.sign-in-form{
+   display: flex;
+    flex-direction: column;
+    width: 255px;
+}
+
+input[type='password']{
+    margin: 10px 0;
+}
+
+.sign-in-error-message{
+    color: darkred;
+}

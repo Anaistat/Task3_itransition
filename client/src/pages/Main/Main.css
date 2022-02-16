@@ -1,0 +1,38 @@
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.users-table{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.toolbar-container{
+    display: grid;
+    grid-template-columns: 520px 220px 220px 220px;
+}
+
+.toolbar-container button{
+    width: 50%;
+    margin: 10px;
+}
+
+.table-row{
+    display: grid;
+    grid-template-columns: 100px 280px 150px 200px 150px 150px 150px;
+}
+
+
+.table-row > div{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
